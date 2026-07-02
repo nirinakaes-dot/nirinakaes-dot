@@ -45,10 +45,10 @@
     <circle cx="700" cy="165" r="1.6" fill="#C9A66B" opacity="0.4"/>
 
     <!-- eyebrow label -->
-    <text x="50" y="58" font-family="Georgia, 'Cormorant Garamond', serif" font-size="12" letter-spacing="4" fill="#9C7FA0">COMPUTER SCIENCE STUDENT</text>
+    <text x="50" y="58" font-family="Georgia, 'Cormorant Garamond', serif" font-size="12" letter-spacing="4" fill="#9C7FA0">MORINGA SCHOOL SOFTWARE ENGINEERING STUDENT</text>
 
     <!-- name -->
-    <text x="48" y="104" font-family="Georgia, 'Playfair Display', serif" font-size="42" font-style="italic" fill="#4A3B4E">Your Name</text>
+    <text x="48" y="104" font-family="Georgia, 'Playfair Display', serif" font-size="42" font-style="italic" fill="#4A3B4E">Nina Adora</text>
 
     <!-- animated underline flourish -->
     <path d="M50,120 Q 220,132 400,120" fill="none" stroke="#C9A66B" stroke-width="1.5" stroke-dasharray="360" stroke-dashoffset="360">
