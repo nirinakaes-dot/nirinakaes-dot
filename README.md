@@ -1,16 +1,67 @@
-## Hi there 👋
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5EEF3"/>
+      <stop offset="55%" stop-color="#EFE3EC"/>
+      <stop offset="100%" stop-color="#E7D9E6"/>
+    </linearGradient>
 
-<!--
-**nirinakaes-dot/nirinakaes-dot** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C9A66B" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C9A66B"/>
+      <stop offset="100%" stop-color="#C9A66B" stop-opacity="0"/>
+    </linearGradient>
 
-Here are some ideas to get you started:
+    <clipPath id="rounded">
+      <rect width="800" height="200" rx="16" ry="16"/>
+    </clipPath>
+  </defs>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <g clip-path="url(#rounded)">
+    <rect width="800" height="200" fill="url(#bg)"/>
+
+    <!-- thin frame rules -->
+    <rect x="14" y="14" width="772" height="172" fill="none" stroke="#C9A66B" stroke-width="1" stroke-opacity="0.55"/>
+
+    <!-- botanical sprig, right side -->
+    <g transform="translate(660,40)" stroke="#9BAE8D" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.85">
+      <path d="M0,120 C10,90 6,60 22,0"/>
+      <path d="M8,95 C22,88 30,78 34,68"/>
+      <path d="M6,75 C-8,70 -16,62 -20,54"/>
+      <path d="M10,55 C24,50 32,42 36,34"/>
+      <path d="M8,35 C-6,30 -14,22 -18,14"/>
+      <ellipse cx="34" cy="66" rx="7" ry="3.2" fill="#B7C7A9" stroke="none" transform="rotate(-35 34 66)"/>
+      <ellipse cx="-19" cy="52" rx="7" ry="3.2" fill="#B7C7A9" stroke="none" transform="rotate(35 -19 52)"/>
+      <ellipse cx="36" cy="32" rx="7" ry="3.2" fill="#B7C7A9" stroke="none" transform="rotate(-35 36 32)"/>
+      <ellipse cx="-17" cy="12" rx="7" ry="3.2" fill="#B7C7A9" stroke="none" transform="rotate(35 -17 12)"/>
+      <circle cx="22" cy="0" r="3.5" fill="#D9B27C" stroke="none">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- small scattered dots for softness -->
+    <circle cx="720" cy="150" r="2" fill="#C9A66B" opacity="0.5"/>
+    <circle cx="740" cy="130" r="1.4" fill="#9BAE8D" opacity="0.6"/>
+    <circle cx="700" cy="165" r="1.6" fill="#C9A66B" opacity="0.4"/>
+
+    <!-- eyebrow label -->
+    <text x="50" y="58" font-family="Georgia, 'Cormorant Garamond', serif" font-size="12" letter-spacing="4" fill="#9C7FA0">MORINGA SCHOOL SOFTWARE ENGINEERING STUDENT</text>
+
+    <!-- name -->
+    <text x="48" y="104" font-family="Georgia, 'Playfair Display', serif" font-size="42" font-style="italic" fill="#4A3B4E">Nina Adora</text>
+
+    <!-- animated underline flourish -->
+    <path d="M50,120 Q 220,132 400,120" fill="none" stroke="#C9A66B" stroke-width="1.5" stroke-dasharray="360" stroke-dashoffset="360">
+      <animate attributeName="stroke-dashoffset" from="360" to="0" dur="2.2s" fill="freeze" begin="0.3s"/>
+    </path>
+
+    <!-- tagline -->
+    <text x="50" y="150" font-family="Georgia, 'Cormorant Garamond', serif" font-size="15" font-style="italic" fill="#7A6B7E" opacity="0">
+      growing, one line of code at a time
+      <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze" begin="1.8s"/>
+    </text>
+
+    <!-- bottom gold rule -->
+    <rect x="0" y="182" width="800" height="1.5" fill="url(#gold)"/>
+  </g>
+</svg>
